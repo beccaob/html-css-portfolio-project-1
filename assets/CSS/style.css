@@ -12,15 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/* heading & logo */
-
-h1 {
-    font-family: Playfair Display, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-    text-decoration: none;
-}
+/* logo */
 
 #logo-pic {
     float: left;
@@ -30,25 +22,25 @@ h1 {
 
 /* menu */
 
-#menu {
+.menu {
     font-size: 140%;
     letter-spacing: 3px;
     line-height: 120px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 50px;
     margin-top: 15px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu, a:hover {
+.menu, a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -58,10 +50,3 @@ h1 {
 
 /* hero image */
 
-#hero-image {
-    height: 600px;
-    width: 100%;
-    
-
-    position: relative;
-}
