@@ -26,6 +26,7 @@ body {
     font-size: 140%;
     letter-spacing: 3px;
     line-height: 120px;
+    padding-right: 15px;
 }
 
 .menu li {
@@ -33,6 +34,7 @@ body {
     list-style-type: none;
     margin-right: 50px;
     margin-top: 15px;
+    color: black;
 }
 
 .menu a {
@@ -49,4 +51,20 @@ body {
 }
 
 /* hero image */
+
+#hero-container {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    height: 750px;
+    width: 100%;
+    background: url("../images/hero-image.png") no-repeat center center;
+    background-size: cover;
+}
+
 
