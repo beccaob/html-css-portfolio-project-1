@@ -30,12 +30,10 @@ h1 {
 
 /* menu */
 
-
-
 #menu {
     font-size: 140%;
     letter-spacing: 3px;
-    padding-top: 40px;
+    line-height: 120px;
 }
 
 #menu li {
@@ -58,4 +56,12 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* hero image */
 
+#hero-image {
+    height: 600px;
+    width: 100%;
+    
+
+    position: relative;
+}
