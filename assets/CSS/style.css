@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Playfair Display, sans-serif;
+    font-family: Staatliches, sans-serif;
     font-weight: 500;
     color: #3a3a3a;
 }
@@ -63,8 +63,31 @@ body {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url("../images/hero-image.png") no-repeat center center;
+    background: url("../images/hero-image\ \(2\).png") no-repeat center center;
     background-size: cover;
 }
 
+/* main body content */
 
+.about-us {
+    border: none;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .who {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10rem 10rem;
+    vertical-align: middle;
+    margin-right: 20%;
+    
+  }
+
+  .why {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10rem 10rem;
+    vertical-align: middle;
+    
+  }
