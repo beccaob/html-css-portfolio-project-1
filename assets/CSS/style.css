@@ -69,34 +69,20 @@ body {
 
 /* main body content */
 
-#benefits h1 {
-    font-size: 60px;
-    text-align: center;
-}
-.about-us {
-    border: none;
-    margin: 1rem;
-    text-align: center;
+ .benefits {
     display: flex;
   }
- 
-  .who, .why, .when, .where {
-      border: 2px solid;
-      border-radius: 25px;
-      background-color: rgba(218, 165, 32, 0.521);
 
-      height: 400px;
-      width: 600px;
-      padding: 10px;
-      margin: 5px;
-      
+  #benefits-img {
+      margin: 45px 25px;
   }
 
-  .about-us h2 {
-      font-size: 35px;
+  #benefit-reasons {
+    margin-top: 80px;
+    
   }
 
-  .about-us p {
-      font-size: 25px;
+  .benefits p {
       font-family: Hubballi, sans-serif;
+      font-size: 20px;
   }
