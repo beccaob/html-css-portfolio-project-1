@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Hubballi&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Staatliches, sans-serif;
+    font-family: Fredoka, sans-serif;
     font-weight: 500;
     color: #3a3a3a;
 }
@@ -63,31 +63,40 @@ body {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url("../images/hero-image\ \(2\).png") no-repeat center center;
+    background: url("../images/hero-image-colourful-guitar.jpg") no-repeat center center;
     background-size: cover;
 }
 
 /* main body content */
 
+#benefits h1 {
+    font-size: 60px;
+    text-align: center;
+}
 .about-us {
     border: none;
     margin: 1rem;
-    padding: 2rem 2rem;
     text-align: center;
+    display: flex;
   }
-  .who {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 10rem 10rem;
-    vertical-align: middle;
-    margin-right: 20%;
-    
+ 
+  .who, .why, .when, .where {
+      border: 2px solid;
+      border-radius: 25px;
+      background-color: rgba(218, 165, 32, 0.521);
+
+      height: 400px;
+      width: 600px;
+      padding: 10px;
+      margin: 5px;
+      
   }
 
-  .why {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 10rem 10rem;
-    vertical-align: middle;
-    
+  .about-us h2 {
+      font-size: 35px;
+  }
+
+  .about-us p {
+      font-size: 25px;
+      font-family: Hubballi, sans-serif;
   }
