@@ -86,22 +86,16 @@ body {
 
 /* main body content */
 
-.about-us {
-    margin-bottom: 25px
-    display: flex;
-    
-
-  }
-
 #about-us-img {
     float: right;
-    
+    margin-top: -25px;
    }
 
 #who-what {
-    height: 400px;
-       margin-top: 10px;
-       margin-left: 120px;
+       height: 400px;
+       width: 100%;
+       margin-top: 50px;
+       margin-left: 10px;
        text-align: center;
    }
 
@@ -111,20 +105,18 @@ body {
       
   }
 
-
-
- .benefits {
-    display: flex;
-    margin-bottom: -70px;
-  }
-
-  #benefits-img {
-      margin: 45px 25px;
+ #benefits-img {
+      float: left;
+      margin-top: -1%;
   }
 
   #benefit-reasons {
-    margin-top: 80px;
-    
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        text-align: center;
   }
 
   .benefits p {
@@ -143,7 +135,6 @@ body {
 
  #footer-table {
      width: 100%;
-     padding-top: 20px;
      margin-left: -40px;
  }
 
@@ -165,6 +156,10 @@ a {
 #copyright {
     margin: 45px 45px;
     text-align: center;
+}
+
+#divide {
+    height: 30px;
 }
   
   
