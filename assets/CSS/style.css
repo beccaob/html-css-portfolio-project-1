@@ -67,6 +67,20 @@ body {
     background: url("../images/hero-image-colourful-guitar.jpg") no-repeat center center;
     background-size: cover;
     transition: transform 2s;
+
+        /* animates zoom effect on home page */
+        animation-name: hero-zoom;
+        animation-duration: 7s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes hero-zoom {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        }
 }
 
 
@@ -128,5 +142,8 @@ body {
      font-family: Hubballi, sans-serif;
  }
 
+a {
+    text-decoration: none;
+}
   
   
