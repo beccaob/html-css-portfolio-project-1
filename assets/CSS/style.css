@@ -86,6 +86,33 @@ body {
 
 /* main body content */
 
+.about-us {
+    margin-bottom: 25px
+    display: flex;
+    
+
+  }
+
+#about-us-img {
+    float: right;
+    
+   }
+
+#who-what {
+    height: 400px;
+       margin-top: 10px;
+       margin-left: 120px;
+       text-align: center;
+   }
+
+#who-what p {
+      font-family: Hubballi, sans-serif;
+      font-size: 20px;
+      
+  }
+
+
+
  .benefits {
     display: flex;
     margin-bottom: -70px;
@@ -105,30 +132,19 @@ body {
       font-size: 20px;
   }
 
-  #class-link {
-      text-align: center;
-      background-color: gold;
-  }
-  #class-link h2 {
-      font-size: 70px;
-      
-  }
-
-  #class-link h3 {
-      font-size: 30px;
-      font-family: Hubballi, sans-serif;
-  }
 
   /* footer */
 
   footer {
-      height: 300px;
+      height: 200px;
       width: 100%;
+      background-color: gold;
   }
 
  #footer-table {
      width: 100%;
      padding-top: 20px;
+     margin-left: -40px;
  }
 
  #table-headings {
@@ -144,6 +160,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+#copyright {
+    margin: 45px 45px;
+    text-align: center;
 }
   
   
