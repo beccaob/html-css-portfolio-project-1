@@ -15,10 +15,7 @@ body {
 /* logo */
 
 #logo-pic {
-    float: left;
-    margin-top: -40px;
-    margin-bottom: -300px;
-    padding-bottom: 20px;
+    
 }
 
 /* menu */
@@ -27,14 +24,12 @@ body {
     font-size: 140%;
     letter-spacing: 3px;
     line-height: 140px;
-    padding-right: 15px;
+    
 }
 
 .menu li {
-    float: right;
+    
     list-style-type: none;
-    margin-right: 50px;
-    margin-top: 15px;
     color: black;
 }
 
@@ -54,7 +49,7 @@ body {
 /* hero image */
 
 #hero-container {
-    height: 750px;
+    
     width: 100%;
     overflow: hidden;
 
@@ -62,7 +57,7 @@ body {
 }
 
 #hero-image {
-    height: 750px;
+    
     width: 100%;
     background: url("../images/hero-image-colourful-guitar.jpg") no-repeat center center;
     background-size: cover;
@@ -87,15 +82,12 @@ body {
 /* main body content */
 
 #about-us-img {
-    float: right;
-    margin-top: -25px;
+    
    }
 
 #who-what {
-       height: 400px;
+       
        width: 100%;
-       margin-top: 50px;
-       margin-left: 10px;
        text-align: center;
    }
 
@@ -106,16 +98,12 @@ body {
   }
 
  #benefits-img {
-      float: left;
-      margin-top: -1%;
+      
   }
 
   #benefit-reasons {
-        height: 400px;
+        
         width: 100%;
-        margin-top: 50px;
-        margin-right: 20px;
-        margin-bottom: 50px;
         text-align: center;
   }
 
@@ -128,7 +116,6 @@ body {
   /* footer */
 
   footer {
-      height: 200px;
       width: 100%;
       background-color: gold;
   }
@@ -159,7 +146,7 @@ a {
 }
 
 #divide {
-    height: 30px;
+    
 }
   
   
