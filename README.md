@@ -8,7 +8,8 @@ Enter features of the site, explain why there are there - include navigation, fo
 
 # Design
 
-Inlcude screenshots of wireframes to show that planning was invloved.
+Home Page
+![Home page wireframe](assets/images/readme-img/homepagewf.png)
 
 # Technologys 
 

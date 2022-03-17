@@ -177,19 +177,44 @@ h5 {
 
 .signup-form {
     font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #form-section {
     padding: 15px;
+    
 }
 
 .signup-form h2 {
-    font-size: 45px;
+    font-size: 55px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+.signup-form h3 {
+    color: #ff8c00;
+    font-size: 25px;
+}
+
+.signup-form h6 {
+    color: darkslategray;
+    font-size: 15px;
+}
+
+.radio {
+    padding: 15px;
+
+    font-size: 20px;
+}
+
+#guitar, #piano, #drums, #vocals, #songwriting {
+    text-align: left;
+}
+
 .text-input {
+    width:30%;
     border-style: groove;
     border-color: #ff8c00;
     border-radius: 2rem;
@@ -199,6 +224,7 @@ h5 {
 }
 
 .join-button {
+    width: 20%;
     border-style: groove;
     border-color: #ff8c00;
     background-color: #ff8c00;
@@ -209,11 +235,14 @@ h5 {
     font-size: 50px;
     text-transform: uppercase;
 
-    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .join-button:hover{background-color:white; color:#ff8c00;}
 
 #fname, #lname, #email {
     padding: 15px;
+    
+    
 }
