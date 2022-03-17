@@ -19,12 +19,6 @@ h2 {
     text-align: center;
 }
 
-p {
-    color: black;
-    font-size: 20px;
-    font-family: Hubballi, sans-serif;
-    text-align: center;
-}
 
 /* logo */
 
@@ -102,9 +96,6 @@ header, a {
     position: relative;
 }
 
-
-/* hero image */
-
 #hero-image {
     min-height: 600px;
     width: 100%;
@@ -116,6 +107,13 @@ header, a {
 
 #about-heading, #benefit-heading {
     background-color: #ff8c00;
+}
+
+.benefits p, .about p {
+    color: black;
+    font-size: 20px;
+    font-family: Hubballi, sans-serif;
+    text-align: center;
 }
 
 
@@ -135,12 +133,44 @@ header, a {
 
 /* footer */
 
-footer {
+
+#footer { 
+    display: table; 
+    width: 100%; 
+    table-layout: auto; 
     background-color: #ff8c00;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-#footer-table {
-    display: flex;
-    justify-content: center;
+#footer > div { 
+    display: table-cell; 
+    text-align: center;
 }
+
+#footer > div > h3 {
+    font-size: 30px;
+    color: white;
+}
+
+#footer > div > p {
+    font-size: 20px;
+    color: white;
+    font-family: Hubballi, sans-serif;
+}
+
+#footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#footer, a:hover {
+    border-bottom: 1px solid white;
+}
+
+h5 {
+    text-align: center;
+}
+
+
 
