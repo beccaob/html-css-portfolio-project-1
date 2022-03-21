@@ -48,6 +48,8 @@ Enter features of the site, explain why there are there - include navigation, fo
 * This section will inform the user of the benefits that children can avail of by learning music at a young age. 
 * The purpose of this section is to entice the user to sign their child up for lessons. 
 
+![benefits](assets/images/readme-img/benefits.png)
+
 ## Classes Page 
 
 ### Classes Page Image 
