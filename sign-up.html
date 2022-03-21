@@ -25,6 +25,7 @@
 
 <body>
     <header>
+        <!-- Site logo as clickable link to home page from any page on the site-->
         <a href="index.html">
             <h1 id="heading"><i class="fa-brands fa-napster"></i> The Rhythm Lounge</h1>
         </a>
@@ -44,6 +45,11 @@
         </nav>
     </header>
 
+    <!-- sign up form to gather all relevant information from user -->
+    <section id="signup-container">
+        <div id="signup-image">
+        </div>
+    </section>
     <section class="form-section">
         <form action="sign-up-successful.html" class="signup-form">
             <h2>Ready to Rock?<i class="fa-solid fa-music"></i></h2>
@@ -53,6 +59,9 @@
 
             <label for="lname" id="lname">Childs Last Name</label>
             <input type="text" name="last_name" id="lname" class="text-input" placeholder="Last Name Here" required>
+
+            <label for="age" id="age">Childs Age</label>
+            <input type="number" name="age" id="age" class="number-input" placeholder="6 - 14" min="6" max="14" required>
 
             <label for="email" id="email">Parents Email Address</label>
             <input type="email" name="email_address" id="email" class="text-input" placeholder="Email Address Here"
