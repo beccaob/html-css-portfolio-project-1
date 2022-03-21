@@ -13,7 +13,7 @@ body {
 }
 
 h2 {
-    color: #ff8c00;
+    color: black;
     font-family: Fredoka, sans-serif;
     font-size: 30px;
     text-align: center;
@@ -137,28 +137,29 @@ header, a {
 
 
 #footer { 
-    display: table; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
     width: 100%; 
-    table-layout: auto; 
     background-color: #ff8c00;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-#footer > div { 
-    display: table-cell; 
-    text-align: center;
-}
+
 
 #footer > div > h3 {
     font-size: 30px;
     color: black;
+    text-align: center;
 }
 
 #footer > div > p {
     font-size: 20px;
     color: black;
     font-family: Hubballi, sans-serif;
+    text-align: center;
 }
 
 #footer a {
@@ -358,14 +359,19 @@ ul {
 
 }
 
-/* contact section of footer not responsive at 425px and lower*/
+/*footer not responsive at 425px and lower*/
 
 /* for screens 425px and lower */
 
 @media screen and (max-width: 425px) {
 
-    #contact {
-        
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer > div > p {
+        padding-bottom: 15px ;
     }
     
 }
