@@ -172,6 +172,16 @@ h5 {
     text-align: center;
 }
 
+/* classes content */
+
+.classes-info {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
 
 /* signup form */
 
