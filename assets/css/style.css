@@ -138,7 +138,7 @@ header, a {
 
 #footer { 
     display: table; 
-    min-width: 100%; 
+    width: 100%; 
     table-layout: auto; 
     background-color: #ff8c00;
     padding-top: 25px;
@@ -322,6 +322,33 @@ ul {
 
 /* media queries */
 
+/* hero image & classes image unreponsive at 1630px and up */
 
+/* for screens 1630px and larger */
+
+@media screen and (min-width: 1630px) {
+
+    #hero-image {
+        background: url("../images/hero-image-colourful-guitar.jpg") repeat center center;
+    }
+
+    #classes-image {
+        background: url("../images/hero-image-colourful-guitar.jpg") repeat center center;
+    }
+
+
+}
+
+/* contact section of footer not responsive at 425px and lower*/
+
+/* for screens 425px and lower */
+
+@media screen and (max-width: 425px) {
+
+    #contact {
+        
+    }
+    
+}
 
 
