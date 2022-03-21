@@ -200,7 +200,7 @@ h5 {
     position: relative;
 }
 
-.signup-form {
+.signup-form, .successful {
     background: linear-gradient(rgba(255, 255, 255, .78), rgba(255, 255, 255, .78)), url("../images/sign-up-tapes.png") repeat center center;
     
 }
@@ -357,17 +357,13 @@ ul {
 
 /* media queries */
 
-/* hero image & classes image unreponsive at 1630px and up */
+/* hero image unreponsive at 1630px and up */
 
 /* for screens 1630px and larger */
 
 @media screen and (min-width: 1650px) {
 
     #hero-image {
-        background: url("../images/hero-image-colourful-guitar.jpg") repeat center center;
-    }
-
-    #classes-image {
         background: url("../images/hero-image-colourful-guitar.jpg") repeat center center;
     }
 
