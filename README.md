@@ -62,6 +62,8 @@ Enter features of the site, explain why there are there - include navigation, fo
 
 ![classes-content](assets/images/readme-img/classes.png)
 
+## Sign Up Page 
+*
 
 
 # Design
