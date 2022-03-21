@@ -278,9 +278,10 @@ ul {
     text-align: center;
 }
 
-.signup-form h4 {
+.signup-form p {
     color: black;
     font-size: 15px;
+    padding-bottom: 10px;
 }
 
 fieldset {
@@ -333,7 +334,7 @@ legend {
 .successful {
     min-height: 200px;
 }
-.successful h1 {
+.successful h2 {
     font-size: 40px;
     text-align: center;
 
@@ -378,13 +379,23 @@ legend {
     }
 
     .text-input, .number-input {
-        min-width:33.3%;
-        
+        width: 60%;
     }
+
+    input::placeholder {
+        font-size: 20px ;
+        text-align: center;
+    }
+
     
     .join-button {
         min-width: 33.3%;
         
+    }
+
+    #sub-heading {
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
 }
