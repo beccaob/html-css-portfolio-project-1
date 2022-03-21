@@ -278,17 +278,18 @@ ul {
     text-align: center;
 }
 
-.signup-form h6 {
+.signup-form h4 {
     color: black;
     font-size: 15px;
 }
 
-.radio {
-    padding: 15px;
-
-    font-size: 20px;
+fieldset {
+    text-align: center;
 }
 
+legend {
+    padding: 15px;
+}
 .text-input, .number-input {
     min-width:30%;
     border-style: groove;
