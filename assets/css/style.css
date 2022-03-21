@@ -174,13 +174,46 @@ h5 {
 
 /* classes content */
 
-.classes-info {
-    text-align: center;
+.class-info h2 {
+    font-size: 50px;
+}
+
+.class-info p {
+    font-family: Hubballi, sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 ul {
-    list-style-type: circle;
+    font-family: Hubballi, sans-serif;
+    font-size: 25px;
 }
+
+.class-info h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.class-info , .classes {
+    text-align: center;
+}
+
+
+.classes h2 {
+    color: white;
+    background-color: #ff8c00;
+    font-size: 40px;
+}
+
+
+.classes h3 {
+    font-family: Hubballi, sans-serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+
 
 
 /* signup form */
