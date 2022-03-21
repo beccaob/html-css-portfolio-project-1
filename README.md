@@ -17,6 +17,27 @@ Enter features of the site, explain why there are there - include navigation, fo
 
 ![nav](assets/images/readme-img/nav.png)
 
+## Footer
+* Will contain contact information and link to email which will automatically open their default mail application and pre-fill the address bar. 
+* Will contain a site map with links to other pages on the site so the user can navigate to these pages without having to scroll back to the main nav menu. 
+* Will contain links to social media where the user can get more information on the workshops. All links will have aria labels to assist screen readers and each link will open in a new tab. 
+
+![footer](assets/images/readme-img/footer.png)
+
+## Favicon 
+* Sitewide favicon will be enabled with The Rhythm Lounge logo. 
+
+* This will show an image in the tabs header will will allow the user to clearly indentify the site if they have multiple tabs open. 
+
+![favicon-1](assets/images/readme-img/favicon.png)
+
+## Landing Page
+### Landing Page Image
+* The hero image is a static image of colourful guitars.
+* This will 
+
+
+
 # Design
 
 ## Home Page
