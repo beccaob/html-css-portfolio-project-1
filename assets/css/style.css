@@ -171,7 +171,7 @@ header, a {
     border-bottom: 1px solid black;
 }
 
-h5 {
+h4 {
     text-align: center;
 }
 
@@ -290,7 +290,7 @@ ul {
 }
 
 .text-input, .number-input {
-    width:30%;
+    min-width:30%;
     border-style: groove;
     border-color: #ff8c00;
     border-radius: 2rem;
@@ -298,6 +298,8 @@ ul {
     font-family: Hubballi, sans-serif;
     font-size: 25px;
 }
+
+
 
 .join-button {
     min-width: 20%;
@@ -317,7 +319,7 @@ ul {
     padding: 15px;
 }
 
-.join-button:hover{background-color:white; color:#ff8c00;}
+.join-button:hover{background-color:black; color:#ff8c00;}
 
 #fname, #lname, #email, #age {
     padding: 15px;  
@@ -359,7 +361,7 @@ ul {
 
 }
 
-/*footer not responsive at 425px and lower*/
+/*footer not responsive at 425px and lower - overflow on text & number inputs & join button*/
 
 /* for screens 425px and lower */
 
@@ -372,6 +374,16 @@ ul {
 
     #footer > div > p {
         padding-bottom: 15px ;
+    }
+
+    .text-input, .number-input {
+        min-width:33.3%;
+        
+    }
+    
+    .join-button {
+        min-width: 33.3%;
+        
     }
     
 }
