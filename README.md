@@ -34,7 +34,33 @@ Enter features of the site, explain why there are there - include navigation, fo
 ## Landing Page
 ### Landing Page Image
 * The hero image is a static image of colourful guitars.
-* This will 
+* This will give the user a general idea of what the website is about before they start scrolling. 
+
+![home-page](assets/images/readme-img/hero-image.png)
+
+### About Us Information
+* This section will give the user a breif introduction to The Rhythm Lounge. 
+* This information lets the user know what the website is about. 
+
+![about-us](assets/images/readme-img/about-us.png)
+
+### Benefits Information
+* This section will inform the user of the benefits that children can avail of by learning music at a young age. 
+* The purpose of this section is to entice the user to sign their child up for lessons. 
+
+## Classes Page 
+
+### Classes Page Image 
+* The classes image is a static image of a colourful piano - keeping with the design idea of the hero image on the landing page. 
+* The purpose of this image is to keep the design consistant. 
+
+![classes-image](assets/images/readme-img/classes-img.png)
+
+### Classes Content
+* The content found on the classes page will inform the user on what workshops TRL ( The Rhythm Lounge ) offers. Days, times and some class content will also be included so the user has as much information as possible before signing up. 
+* The purpose of this content is to show the user that there are various workshops to choose from. 
+
+![classes-content](assets/images/readme-img/classes.png)
 
 
 

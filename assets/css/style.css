@@ -320,13 +320,32 @@ ul {
     padding: 15px;  
 }
 
+/* sign up successful form */
+
+.successful {
+    min-height: 200px;
+}
+.successful h1 {
+    font-size: 40px;
+    text-align: center;
+
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.successful p {
+    font-size: 25px;
+    font-family: Hubballi, sans-serif;
+    text-align: center;
+}
+
 /* media queries */
 
 /* hero image & classes image unreponsive at 1630px and up */
 
 /* for screens 1630px and larger */
 
-@media screen and (min-width: 1630px) {
+@media screen and (min-width: 1650px) {
 
     #hero-image {
         background: url("../images/hero-image-colourful-guitar.jpg") repeat center center;
