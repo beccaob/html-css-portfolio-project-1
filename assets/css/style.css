@@ -58,6 +58,7 @@ header, a {
 .menu {
     font-size: 140%;
     letter-spacing: 3px;
+    font-family: Fredoka, sans-serif;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -88,8 +89,8 @@ header, a {
 
 /* hero image */
 
-#hero-outer {
-    height: 600px;
+#hero-container {
+    min-height: 600px;
     width: 100%;
     overflow: hidden;
 
@@ -172,6 +173,24 @@ h5 {
     text-align: center;
 }
 
+/* classes image */
+
+#image-container {
+    min-height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#classes-image {
+    min-height: 600px;
+    width: 100%;
+    background: url("../images/our-workshops.png") no-repeat center center;
+
+    opacity: 0.8;
+}
+
 /* classes content */
 
 .class-info h2 {
@@ -199,6 +218,12 @@ ul {
     text-align: center;
 }
 
+.classes p {
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+    font-size: 25px;
+}
 
 .classes h2 {
     color: white;
@@ -209,7 +234,13 @@ ul {
 
 .classes h3 {
     font-family: Hubballi, sans-serif;
-    font-size: 30px;
+    font-size: 38px;
+    padding-bottom: 15px;
+}
+
+#songwriting p {
+    font-family: Hubballi, sans-serif;
+    font-size: 25px;
     padding-bottom: 15px;
 }
 
