@@ -9,7 +9,7 @@
 body {
     font-family: Fredoka, sans-serif;
     font-weight: 500;
-    color: #3a3a3a;
+    color: black;
 }
 
 h2 {
@@ -30,7 +30,7 @@ header {
 #heading {
     font-family: Fredoka, sans-serif;
     font-weight: 500;
-    color: white;
+    color: black;
     font-size: 70px;
     text-align: center;
     text-transform: uppercase;
@@ -40,7 +40,7 @@ header {
 #sub-heading {
     font-family: Hubballi, sans-serif;
     font-weight: 500;
-    color: white;
+    color: black;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -72,7 +72,7 @@ header, a {
 .menu li {
     
     list-style-type: none;
-    color: white;
+    color: black;
 }
 
 .menu a {
@@ -81,11 +81,11 @@ header, a {
 }
 
 .menu, a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 /* hero image */
@@ -129,7 +129,7 @@ header, a {
     font-size: 40px;
     padding-bottom: 15px;
     padding-top: 15px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -152,12 +152,12 @@ header, a {
 
 #footer > div > h3 {
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 #footer > div > p {
     font-size: 20px;
-    color: white;
+    color: black;
     font-family: Hubballi, sans-serif;
 }
 
@@ -167,7 +167,7 @@ header, a {
 }
 
 #footer, a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 h5 {
@@ -228,7 +228,7 @@ ul {
 }
 
 .classes h2 {
-    color: white;
+    color: black;
     background-color: #ff8c00;
     font-size: 40px;
 }
@@ -305,7 +305,7 @@ ul {
     background-color: #ff8c00;
     border-radius: 2rem;
 
-    color: white;
+    color: black;
     font-family: Fredoka , sans-serif;
     font-size: 50px;
     text-transform: uppercase;
