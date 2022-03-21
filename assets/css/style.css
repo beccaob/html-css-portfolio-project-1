@@ -176,20 +176,8 @@ h5 {
 
 /* classes image */
 
-#image-container {
-    min-height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
-
-#classes-image {
-    min-height: 600px;
-    width: 100%;
-    background: url("../images/our-workshops.png") no-repeat center center;
-
-    opacity: 0.8;
+.classes, .class-info {
+    background: url(../images/classes-tapes.png) center center;
 }
 
 #signup-container {

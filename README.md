@@ -51,7 +51,7 @@ Enter features of the site, explain why there are there - include navigation, fo
 ## Classes Page 
 
 ### Classes Page Image 
-* The classes image is a static image of a colourful piano - keeping with the design idea of the hero image on the landing page. 
+* The classes image will be a static background image of various colourful tapes.
 * The purpose of this image is to keep the design consistant. 
 
 ![classes-image](assets/images/readme-img/classes-img.png)
@@ -63,7 +63,20 @@ Enter features of the site, explain why there are there - include navigation, fo
 ![classes-content](assets/images/readme-img/classes.png)
 
 ## Sign Up Page 
-*
+* The sign up page will consist of a form complete with all fields nessesary to gather relevant information. Such as: 
+First Name (type=text)
+Last Name ( type=text)
+Email ( type=email)
+Age (type=number)
+Workshop Choice ( type= radio )
+* The purpose of this form is to allow the user to sign up for TRL. 
+
+![sign-up-form](assets/images/readme-img/sign-up.png)
+
+* Upon completion, the user will be redirected to sign-up-successfull.html where they will be met with a Submission successful message. 
+* The purpose of this message is to inform the user that their submission has been successful. 
+
+![sign-up-successful](assets/images/readme-img/sign-up-successful.png)
 
 
 # Design
