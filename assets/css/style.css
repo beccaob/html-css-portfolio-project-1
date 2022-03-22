@@ -371,6 +371,10 @@ legend {
         background: url("../images/hero-image-colourful-guitar.jpg") repeat center center;
     }
 
+    .successful {
+        height: 100%;
+    }
+
 
 }
 
