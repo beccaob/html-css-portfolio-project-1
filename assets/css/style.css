@@ -13,7 +13,7 @@ body {
 }
 
 h2 {
-    color: #303030
+    color: #303030;
     font-family: Fredoka, sans-serif;
     font-size: 30px;
     text-align: center;
@@ -40,7 +40,7 @@ header {
 #sub-heading {
     font-family: Hubballi, sans-serif;
     font-weight: 500;
-    color: 	#303030
+    color: 	#303030;
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
@@ -170,7 +170,7 @@ header, a {
 }
 
 #footer, a:hover {
-    border-bottom: 1px solid ##303030;
+    border-bottom: 1px solid #303030;
 }
 
 h4 {
@@ -335,9 +335,7 @@ legend {
 
 /* sign up successful form */
 
-.successful {
-    min-height: 200px;
-}
+
 .successful h2 {
     font-size: 40px;
     text-align: center;
@@ -370,9 +368,6 @@ legend {
     #hero-image {
         background: url("../images/hero-image-colourful-guitar.jpg") repeat center center;
     }
-
-
-
 }
 
 /*footer not responsive at 425px and lower - overflow on text & number inputs & join button*/
@@ -391,6 +386,8 @@ legend {
         padding-bottom: 15px ;
     }
 
+    /* sign up form */
+
     .text-input, .number-input {
         width: 60%;
     }
@@ -400,17 +397,16 @@ legend {
         text-align: center;
     }
 
-    
     .join-button {
-        min-width: 20%;
-        
+        min-width: 20%;  
     }
+
+    /* heading */
 
     #sub-heading {
         padding-left: 15px;
         padding-right: 15px;
-    }
-    
+    }   
 }
 
 
