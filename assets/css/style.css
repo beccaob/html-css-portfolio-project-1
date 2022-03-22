@@ -418,4 +418,12 @@ legend {
     }
 }
 
+@media screen and (max-width: 425px) {
+    
+    .successful {
+        height: 20vh;
+    }
+    
+}
+
 

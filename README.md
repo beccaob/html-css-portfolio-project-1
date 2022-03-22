@@ -134,11 +134,58 @@ I will add
 
 # Technologys 
 
-What i used to build the site and why i used it. 
+## HTML
+* The websites structure was developed using HTML as the main language.
+
+## CSS
+* The website was styles using custom CSS in an external file.
+
+## Visual Studio Code 
+* The website was developed using VS Code. 
+
+## Github 
+* TRL source code is hosted on Github & deployed using Git Pages. 
+
+## Git
+* Used to commit and push code throughout the development process. 
+
+## Font Awesome 
+* Icons from https://fontawesome.com/ were used in the headings and social media icons on the site. 
+
+## Favicon.io 
+* Favicon files were created using https://favicon.io
+
+## Balsamiq 
+* Wireframes were created using Balsamiq from https://balsamiq.com/wireframes/desktop/
 
 # Testing 
 
-How i tested the site, my expected outcomes and my actual outcomes. 
+## Responsivness 
+
+All pages were tested to ensure responsivness on screen sizes from 320px upwards. Each page was tested on Chrome, Edge and Firefox. 
+
+Steps to test: 
+1. Open browser and navigate to [The Rhythm Lounge](https://beccaob.github.io/the-rhythm-lounge-pp1/index.html)
+2. Open the developer tools ( right click & inspect )
+3. Set to responsive & decrease width to 320px
+4. Set the zoom to 50%
+5. Click & drag window to max width
+
+Expected Outcome: 
+* Responsive on all screen sizes, no pixelated/streched images
+* No horizontal scroll bar
+* No element overflow
+
+Actual Outcome: 
+
+* Home Page
+    * Website behaved as expected. 
+* Classes Page
+    * Website behaved as expected. 
+* Sign Up Page
+    * Website behaved as expected. 
+
+
 
 # Deployement 
 
