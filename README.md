@@ -178,12 +178,45 @@ Expected Outcome:
 
 Actual Outcome: 
 
+Chrome:
+
 * Home Page
     * Website behaved as expected. 
 * Classes Page
     * Website behaved as expected. 
 * Sign Up Page
     * Website behaved as expected. 
+* Sign Up Successful Page
+    * Website behaved as expected. 
+* 404 Error
+    * Website behaved as expected. 
+
+Edge: 
+
+* Home Page
+    * Website behaved as expected. 
+* Classes Page
+    * Website behaved as expected. 
+* Sign Up Page
+    * Website behaved as expected. 
+* Sign Up Successful Page
+    * Website behaved as expected. 
+* 404 Error
+    * Website behaved as expected. 
+
+Fire Fox: 
+
+* Home Page
+    * Website behaved 
+* Classes Page
+    * Website behaved  
+* Sign Up Page
+    * Website behaved  
+* Sign Up Successful Page
+    * Website behaved 
+* 404 Error
+    * Website behaved 
+
 
 
 
