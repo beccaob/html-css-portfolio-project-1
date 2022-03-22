@@ -9,11 +9,11 @@
 body {
     font-family: Fredoka, sans-serif;
     font-weight: 500;
-    color: black;
+    color: 		#303030;
 }
 
 h2 {
-    color: black;
+    color: 		#303030
     font-family: Fredoka, sans-serif;
     font-size: 30px;
     text-align: center;
@@ -30,7 +30,7 @@ header {
 #heading {
     font-family: Fredoka, sans-serif;
     font-weight: 500;
-    color: black;
+    color: #303030;
     font-size: 70px;
     text-align: center;
     text-transform: uppercase;
@@ -40,7 +40,7 @@ header {
 #sub-heading {
     font-family: Hubballi, sans-serif;
     font-weight: 500;
-    color: black;
+    color: 	#303030
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -72,7 +72,7 @@ header, a {
 .menu li {
     
     list-style-type: none;
-    color: black;
+    color: 	#303030;
 }
 
 .menu a {
@@ -81,11 +81,11 @@ header, a {
 }
 
 .menu, a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #303030;
 }
 
 .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #303030;
 }
 
 /* hero image */
@@ -112,7 +112,7 @@ header, a {
 }
 
 .benefits p, .about p {
-    color: black;
+    color: #303030;
     font-size: 20px;
     font-family: Hubballi, sans-serif;
     text-align: center;
@@ -129,7 +129,7 @@ header, a {
     font-size: 40px;
     padding-bottom: 15px;
     padding-top: 15px;
-    color: black;
+    color: #303030;
     text-align: center;
 }
 
@@ -151,13 +151,13 @@ header, a {
 
 #footer > div > h3 {
     font-size: 30px;
-    color: black;
+    color: #303030;
     text-align: center;
 }
 
 #footer > div > p {
     font-size: 20px;
-    color: black;
+    color: #303030;
     font-family: Hubballi, sans-serif;
     text-align: center;
 }
@@ -168,7 +168,7 @@ header, a {
 }
 
 #footer, a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid ##303030;
 }
 
 h4 {
@@ -229,7 +229,7 @@ ul {
 }
 
 .classes h2 {
-    color: black;
+    color: #303030;
     background-color: #ff8c00;
     font-size: 40px;
 }
@@ -269,17 +269,17 @@ ul {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    color: black;
+    color: #303030;
 }
 
 .signup-form h3 {
-    color: black;
+    color: #303030;
     font-size: 25px;
     text-align: center;
 }
 
 .signup-form p {
-    color: black;
+    color: #303030;
     font-size: 15px;
     padding-bottom: 10px;
 }
@@ -310,7 +310,7 @@ legend {
     background-color: #ff8c00;
     border-radius: 2rem;
 
-    color: black;
+    color: #303030;
     font-family: Fredoka , sans-serif;
     font-size: 50px;
     text-transform: uppercase;
@@ -321,7 +321,7 @@ legend {
     padding: 15px;
 }
 
-.join-button:hover{background-color:black; color:#ff8c00;}
+.join-button:hover{background-color:#2F4F4F; color:#ff8c00;}
 
 #fname, #lname, #email, #age {
     padding: 15px;  
