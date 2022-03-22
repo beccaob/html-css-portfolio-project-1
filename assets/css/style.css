@@ -352,6 +352,13 @@ legend {
     text-align: center;
 }
 
+#socials > p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 /* media queries */
 
 /* hero image unreponsive at 1630px and up */
