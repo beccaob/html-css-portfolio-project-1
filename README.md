@@ -71,7 +71,7 @@ Last Name ( type=text)
 Email ( type=email)
 Age (type=number)
 Workshop Choice ( type= radio )
-* The purpose of this form is to allow the user to sign up for TRL. 
+* The purpose of this form is to allow the user to sign their child up for TRL. 
 
 ![sign-up-form](assets/images/readme-img/sign-up.png)
 
@@ -97,7 +97,7 @@ Workshop Choice ( type= radio )
 ### Colours 
 
 The colours used will be Orange ( primary background colour ) and Dark Grey ( Primary heading & content colour ).
-I will add 
+Colourful images will be used to keep the design consisitant. 
 
 ## Wireframes 
 * I designed wireframes to give myself a rough idea of what i wanted the site to look like. 
