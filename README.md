@@ -485,7 +485,44 @@ No errors were presented when running through the official Jigsaw Validator.
 
 # Deployement 
 
-What i used to deploy and how i did it. 
+The website was created using Visual Studio Code editor and pushed to the github remote repository 'the-rhythm-lounge-pp1'
+The following git commands were used throughout development to push code to the remote repository: 
+
+* git add . 
+    * This command was used to add a change in the working directory to the staging area. 
+
+* git commit -m "commit message"
+    * This command was used to commit changes to the local repo queue ready to be pushed to the remote repo. 
+
+* git push
+    * This command was used to push all committed code to the remote repo on github. 
+
+## Deployment to Github Pages
+
+The site was deployed to Github Pages. Steps used are as follows: 
+1. In the repo, open the settings tab
+2. In left menu, click 'Pages'
+3. From the source section, select 'Branch:main' from the dropdown menu
+4. Click 'Save'
+5. A live link will be displayed in green banner when published successfully
+
+The live link to The Rhythm Lounge can be found here: https://beccaob.github.io/the-rhythm-lounge-pp1/
+
+## Clone Repo Code Locally 
+
+Navigate to the github repo you want to clone for local use
+
+1. Click the 'Code' drop down menu
+2. Click on 'HTTPS' 
+3. Copy the repo link to the keyboard 
+4. Open preferred integrated development environment (IDE) 
+
+(Git must be installed for the final step) 
+
+5. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned on your local machine.
+
 
 # Credits 
 
