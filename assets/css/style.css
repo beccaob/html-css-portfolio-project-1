@@ -332,7 +332,7 @@ legend {
 /* sign up successful form */
 
 .successful {
-    min-height: 65vh; 
+    min-height: 76vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
