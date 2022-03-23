@@ -471,6 +471,13 @@ Actual: Behaviour was as expected. See screenshot below:
 
 ## HTML 
 
+No errors were presented when running through the official W3C Validator. 
+![validate-home](assets/images/readme-img/validate-home.png)
+![validate-classes](assets/images/readme-img/validate-classes.png)
+![validate-signup](assets/images/readme-img/validate-signup.png)
+![validate-signupsuccessful](assets/images/readme-img/validate-signupsuccessful.png)
+![validate-404](assets/images/readme-img/validate-404.png)
+
 
 # Deployement 
 
