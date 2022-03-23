@@ -89,6 +89,41 @@ Workshop Choice ( type= radio )
 * As a future enhancement, the contact form will be updated with JavaScript. This will send an email to TRL with the sign up information. 
 * Gallery to be added with photos from the workshops.
 
+# Target Audience
+
+TRL's target audience are parents of 6-12 year olds. The website was designed in a way that would appeal to both the parent and the child. 
+
+## Parent
+
+The content is targeted to the parent. Each section of TRL is concise and informative with the end goal being the childs enrollment. 
+
+## Child
+
+The design is targeted to the child. The fonts & colors used are similar to childrens TV channels such as Nickelodeon, Nick Jr., Disney Channel, etc. The objective is to connect the fun of these channels to the potential fun one could have with TRL. 
+
+# User Stories 
+
+1. Sarah 
+Sarah does not have any children enrolled in The Rhythm Lounge.
+    * Wants To: Know more about the benefits of music in young children
+    * End Goal: Feel Informed 
+
+Outcome: Sarah can reach her end goal of feeling informed by navigating to the sites 'Benefits Of Learning Music at a Young Age' section of the home page. 
+
+2. Daniel
+Daniel has one child enrolled in TRL Drums class. 
+    * Wants To: Remind himself of the Drum lesson time 
+    * End Goal: Know the Drum schedule
+
+Outcome: Daniel can navigate to the 'Classes' page of the site and scroll down to the 'Drums' section to remind himself of the schedule. 
+
+3. Imelda 
+Imelda is enrolling one of her children in TRL. 
+    * Wants To: Enroll her child in TRL's piano lessons
+    * End Goal: To know her child is enrolled
+
+Outcome: Imelda can navigate to the 'Sign Up' page and fill out the relevant information. If she fills this out correctly, she will be redirected to a submission successful page. This page lets Imelda know that her child is enrolled. 
+    
 
 # Design
 

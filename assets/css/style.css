@@ -26,7 +26,6 @@ header {
     background-color: #ff8c00;
 }
 
-
 #heading {
     font-family: Fredoka, sans-serif;
     font-weight: 500;
@@ -52,7 +51,6 @@ header {
 header, a {
     text-decoration: none;
 }
-
 
 /* menu */
 
@@ -104,7 +102,6 @@ header, a {
     background: url("../images/hero-image-colourful-guitar.jpg") no-repeat center center;
 }
 
-
 /* main content */
 
 #about-heading, #benefit-heading {
@@ -118,12 +115,10 @@ header, a {
     text-align: center;
 }
 
-
 .about, .benefits {
     padding: 20px 20px;
     padding-bottom: 20px;
 }
-
 
 #benefits-h2, #about-h2 {
     font-size: 40px;
@@ -135,7 +130,6 @@ header, a {
 
 /* footer */
 
-
 #footer { 
     display: flex; 
     flex-direction: row;
@@ -146,8 +140,6 @@ header, a {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
-
 
 #footer > div > h3 {
     font-size: 30px;
@@ -163,7 +155,6 @@ header, a {
 
 }
 
-
 #footer a {
     text-decoration: none;
     color: inherit;
@@ -176,8 +167,6 @@ header, a {
 h4 {
     text-align: center;
 }
-
-
 
 /* background images  */
 
@@ -287,7 +276,6 @@ legend {
     border-style: groove;
     border-color: #ff8c00;
     border-radius: 2rem;
-
     font-family: Hubballi, sans-serif;
     font-size: 25px;
 }
@@ -349,8 +337,6 @@ legend {
 
 /* media queries */
 
-/* hero image unreponsive at 1630px and up */
-
 /* for screens 1630px and larger */
 
 @media screen and (min-width: 1650px) {
@@ -360,11 +346,21 @@ legend {
     }
 }
 
-/*footer not responsive at 425px and lower - overflow on text & number inputs & join button*/
-
 /* for screens 425px and lower */
 
 @media screen and (max-width: 425px) {
+
+    /* heading */
+
+    #heading {
+        font-size: 50px;
+    }
+
+    #sub-heading {
+        font-size: 22px;
+    }
+
+    /* footer */
 
     #footer {
         display: flex;
@@ -405,6 +401,8 @@ legend {
 }
 
 @media screen and (max-width: 425px) {
+
+/* sign-up-successful */
     
     .successful {
         height: 20vh;
