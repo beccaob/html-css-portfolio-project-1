@@ -480,6 +480,7 @@ No errors were presented when running through the official W3C Validator.
 
 ## CSS
 No errors were presented when running through the official Jigsaw Validator.
+![css-validate](assets/images/readme-img/css-validate.png)
 
 
 # Deployement 
