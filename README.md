@@ -478,6 +478,9 @@ No errors were presented when running through the official W3C Validator.
 ![validate-signupsuccessful](assets/images/readme-img/validate-signupsuccessful.png)
 ![validate-404](assets/images/readme-img/validate-404.png)
 
+## CSS
+No errors were presented when running through the official Jigsaw Validator.
+
 
 # Deployement 
 
