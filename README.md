@@ -202,7 +202,23 @@ The site was also tested on the following devices and no issues were detected:
 [Wave Accessibility Tool](https://wave.webaim.org/) was used throughout development and for the final testing of the website. 
 
 Testing was targerted towards ensuring the following criteria was met: 
-* All forms have aria labels
+* All forms have associated labels so it's read out on a screen reader to users who tab to form inputs.
+* Color contrasts meet the minimum requirements specified in WCAG Contrast Guidelines. 
+* All content is contained within landmarks to allow the user to navigate by page region.
+* Heading levels are not skipped or missed. This will ensure the importance of content is convayed to the user. 
+* All images have alt attributes or titles so screen readers can read the description to the user. 
+* HTML page langugae has been set. 
+
+A manual test was conducted 23/03/22 using NVDA and no accessibility issues were uncovered. 
+
+## Lighthouse Testing
+
+![home-lighthouse](assets/images/readme-img/home-lighthouse.png)
+
+![home-lighthouse](assets/images/readme-img/classes-lighthouse.png)
+
+![home-lighthouse](assets/images/readme-img/signup-lighthouse.png)
+
     
 
 
