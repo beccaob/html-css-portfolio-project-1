@@ -1,12 +1,12 @@
 # The Rhythm Lounge 
 
-The Rhythm Lounge is a website that allows the user to sign their kids (aged 6-14) up for music workshops. These workshops include piano, guitar, vocals, drums and songwriting. The website aims to inform the user of the benefits a child gains from learning music at a younge age which will in turn, entice them to sign their child up for a workshop. View the live site here: https://beccaob.github.io/the-rhythm-lounge-pp1/
+The Rhythm Lounge is a website that allows the user to sign their kids (aged 6-14) up for music workshops. These workshops include piano, guitar, vocals, drums, and song writing. The website aims to inform the user of the benefits a child gains from learning music at a young age which will in turn, entice them to sign their child up for a workshop. View the live site here: https://beccaob.github.io/the-rhythm-lounge-pp1/
 
 ## Website Mock-up
 
 ![multi-device-mockup](assets/images/readme-img/multi-device-mockup.png)
 
-View all pages on the mockup generator here https://techsini.com/multi-mockup/?url=https://beccaob.github.io/the-rhythm-lounge-pp1/
+View all pages on the mock-up generator here https://techsini.com/multi-mockup/?url=https://beccaob.github.io/the-rhythm-lounge-pp1/
 
 # Features 
 
@@ -29,7 +29,7 @@ View all pages on the mockup generator here https://techsini.com/multi-mockup/?u
 ## Favicon 
 * Sitewide favicon will be enabled with The Rhythm Lounge logo. 
 
-* This will show an image in the tabs header will will allow the user to clearly indentify the site if they have multiple tabs open. 
+* This will show an image in the tabs header will allow the user to clearly indentify the site if they have multiple tabs open. 
 
 ![favicon-1](assets/images/readme-img/favicon.png)
 
@@ -50,13 +50,13 @@ View all pages on the mockup generator here https://techsini.com/multi-mockup/?u
 
 ![benefits-about-us](assets/images/readme-img/home-content.png)
 
-* Both sections have a partially transparent static background image to keep the design consistant.
+* Both sections have a partially transparent static background image to keep the design consistent.
 
 ## Classes Page 
 
 ### Classes Page Image 
-* The classes image will be a static partially tranparent background image of various colourful tapes.
-* The purpose of this image is to keep the design consistant. 
+* The classes image will be a static partially transparent background image of various colourful tapes.
+* The purpose of this image is to keep the design consistent. 
 
 ### Classes Content
 * The content found on the classes page will inform the user on what workshops TRL ( The Rhythm Lounge ) offers. Days, times and some class content will also be included so the user has as much information as possible before signing up. 
@@ -65,28 +65,29 @@ View all pages on the mockup generator here https://techsini.com/multi-mockup/?u
 ![classes-content](assets/images/readme-img/classes-page.png)
 
 ## Sign Up Page 
-* The sign up page will consist of a form complete with all fields nessesary to gather relevant information. Such as: 
-First Name (type=text)
-Last Name ( type=text)
-Email ( type=email)
-Age (type=number)
-Workshop Choice ( type= radio )
+* The sign up page will consist of a form complete with all fields necessary to gather relevant information. Such as: 
+    * First Name (type=text)
+    * Last Name ( type=text)
+    * Email ( type=email)
+    * Age (type=number)
+    * Workshop Choice ( type= radio )
 * The purpose of this form is to allow the user to sign their child up for TRL. 
 
 ![sign-up-form](assets/images/readme-img/sign-up.png)
 
-* Upon completion, the user will be redirected to sign-up-successfull.html where they will be met with a Submission successful message. 
+* Upon completion, the user will be redirected to sign-up-successful.html where they will be met with a Submission successful message. 
 * The purpose of this message is to inform the user that their submission has been successful. 
 
 ![sign-up-successful](assets/images/readme-img/sign-up-successful.png)
 
-## Exsiting Features 
+## Existing Features 
 * Responsive Design 
 * Contact form & success page
 * 404 page
 
 ## Features Left to Implement 
 * As a future enhancement, the contact form will be updated with JavaScript. This will send an email to TRL with the sign up information. 
+* Animation to be added to hero image.
 * Gallery to be added with photos from the workshops.
 
 # Target Audience
@@ -132,11 +133,11 @@ Outcome: Imelda can navigate to the 'Sign Up' page and fill out the relevant inf
 ### Colours 
 
 The colours used will be Orange ( primary background colour ) and Dark Grey ( Primary heading & content colour ).
-Colourful images will be used to keep the design consisitant. 
+Colourful images will be used to keep the design consistent. 
 
 ## Wireframes 
-* I designed wireframes to give myself a rough idea of what i wanted the site to look like. 
-* I did this to save myself time by not designing as i go. 
+* I designed wireframes to give myself a rough idea of what I wanted the site to look like. 
+* I did this to save myself time by not designing as I go. 
 
 ### Home Page
 
@@ -169,7 +170,7 @@ Colourful images will be used to keep the design consisitant.
 ![404-wf-mob](assets/images/readme-img/wireframes/404-mobile.png)
 
 
-# Technologys 
+# Technologies
 
 ## HTML
 * The websites structure was developed using HTML as the main language.
@@ -207,19 +208,19 @@ Colourful images will be used to keep the design consisitant.
 
 # Testing 
 
-## Responsivness 
+## Responsiveness 
 
-All pages were tested to ensure responsivness on screen sizes from 320px upwards. Each page was tested on Chrome, Edge and Firefox. 
+All pages were tested to ensure responsiveness on screen sizes from 320px upwards. Each page was tested on Chrome, Edge and Firefox. 
 
 Steps to test: 
-1. Open browser and navigate to [The Rhythm Lounge](https://beccaob.github.io/the-rhythm-lounge-pp1/index.html)
+1. Open the browser and navigate to [The Rhythm Lounge](https://beccaob.github.io/the-rhythm-lounge-pp1/index.html)
 2. Open the developer tools ( right click & inspect )
 3. Set to responsive & decrease width to 320px
 4. Set the zoom to 50%
 5. Click & drag window to max width
 
 Expected Outcome: 
-* Responsive on all screen sizes, no pixelated/streched images
+* Responsive on all screen sizes, no pixelated/stretched images
 * No horizontal scroll bar
 * No element overflow
 
@@ -239,13 +240,13 @@ The site was also tested on the following devices and no issues were detected:
 
 [Wave Accessibility Tool](https://wave.webaim.org/) was used throughout development and for the final testing of the website. 
 
-Testing was targerted towards ensuring the following criteria was met: 
+Testing was targeted towards ensuring the following criteria was met: 
 * All forms have associated labels so it's read out on a screen reader to users who tab to form inputs.
 * Color contrasts meet the minimum requirements specified in WCAG Contrast Guidelines. 
 * All content is contained within landmarks to allow the user to navigate by page region.
-* Heading levels are not skipped or missed. This will ensure the importance of content is convayed to the user. 
+* Heading levels are not skipped or missed. This will ensure the importance of content is conveyed to the user. 
 * All images have alt attributes or titles so screen readers can read the description to the user. 
-* HTML page langugae has been set. 
+* HTML page language has been set. 
 
 A manual test was conducted 23/03/22 using NVDA and no accessibility issues were uncovered. 
 
@@ -363,7 +364,7 @@ Steps to test:
 
 Expected: 
 
-* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
 
 
 Actual: 
@@ -386,7 +387,7 @@ Steps to test:
 
 Expected: 
 
-* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
 
 
 Actual: 
@@ -409,7 +410,7 @@ Steps to test:
 
 Expected: 
 
-* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
 
 
 Actual: 
@@ -432,7 +433,7 @@ Steps to test:
 
 Expected: 
 
-* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
 
 
 Actual: 
@@ -455,7 +456,7 @@ Steps to test:
 
 Expected: 
 
-* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
 
 
 Actual: 
@@ -478,7 +479,7 @@ Steps to test:
 
 Expected: 
 
-* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
 
 
 Actual: 
@@ -487,7 +488,7 @@ Actual:
 
 ## Footer Social Icons
 
-Testing ws performed on the social media icons to ensure each opened in a new tab and had a hover affect of the underline. 
+Testing was performed on the social media icons to ensure each opened in a new tab and had a hover effect of an underline. 
 
 As expected, each icon opened in a new tab and correct underline was present. 
 
@@ -521,7 +522,7 @@ No errors were presented when running through the official Jigsaw Validator.
 ![css-validate](assets/images/readme-img/css-validate.png)
 
 
-# Deployement 
+# Deployment
 
 The website was created using Visual Studio Code editor and pushed to the github remote repository 'the-rhythm-lounge-pp1'
 The following git commands were used throughout development to push code to the remote repository: 
@@ -574,14 +575,14 @@ The project will now be cloned on your local machine.
 
 ## Flexbox Froggy 
 
-* Used to familiarlize myself with using flexbox.
+* Used to familiarize myself with using flexbox.
     * https://flexboxfroggy.com/
 
 ## Unicorn Revealer 
-* Chrome extention used to highlight overflow. 
+* Chrome extension used to highlight overflow. 
     * Can be downloaded here: https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB
 
-## Multi Device Website Mockup Generator 
+## Multi Device Website Mock-up Generator 
 * Used to test responsiveness on Apple devices. Screenshotted for readme.md file. 
     * Can be accessed here: https://techsini.com/multi-mockup/
 
@@ -590,8 +591,7 @@ The project will now be cloned on your local machine.
     * Can be accessed here: https://github.com/Code-Institute-Solutions/readme-template
 
 ## Github Markdown Cheat Sheet
-* Used to write README.md
+* Used to assist in writing README.md
     * Can be accessed here: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 
-#
