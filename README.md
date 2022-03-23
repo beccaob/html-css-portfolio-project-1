@@ -212,15 +212,15 @@ Edge:
 Fire Fox: 
 
 * Home Page
-    * Website behaved 
+    * Website behaved as expected.
 * Classes Page
-    * Website behaved  
+    * Website behaved as expected.
 * Sign Up Page
-    * Website behaved  
+    * Website behaved as expected.
 * Sign Up Successful Page
-    * Website behaved 
+    * Website behaved as expected.
 * 404 Error
-    * Website behaved 
+    * Website behaved as expected.
 
 
 
