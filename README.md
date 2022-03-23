@@ -248,8 +248,32 @@ What i used to deploy and how i did it.
 
 ## Images
 
+* Home & Classes Background Image: 'Collection Of Different Vintage Audio Compact Cassettes' - Martin Bergsma
 
+* Sign Up Background Image: 'Vintage Audio Compact Cassettes' - Martin Bergsma
 
-anything i used to help me make the site. 
+* Hero Image: 'Untitled' - Rahu from Pixabay
+
+## Flexbox Froggy 
+
+* Used to familiarlize myself with using flexbox.
+    * https://flexboxfroggy.com/
+
+* Unicorn Revealer 
+    * Chrome extention used to highlight overflow. 
+    * Can be downloaded here: https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB
+
+* Multi Device Website Mockup Generator 
+    * Used to test responsiveness on Apple devices. Screenshotted for readme.md file. 
+    * Can be accessed here: https://techsini.com/multi-mockup/
+
+* Code Institute Sample README.md 
+    * Used as a template to create README.md for the wesbite. 
+    * Can be accessed here: https://github.com/Code-Institute-Solutions/readme-template
+
+* Github Markdown Cheat Sheet
+    * Used to write README.md
+    * Can be accessed here: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 
 #
