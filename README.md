@@ -424,6 +424,48 @@ Actual:
 
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
+#### Not selecting a workshop radioo button
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Dont choose workshop option
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+## Footer Social Icons
+
+Testing ws performed on the social media icons to ensure each opened in a new tab and had a hover affect of the underline. 
+
+As expected, each icon opened in a new tab and correct underline was present. 
+
+## Footer Contact Information
+
+Testing was performed on the email in the 'Contact Us' section of the footer to ensure it opened the users default mail application. 
+
+Steps to test: 
+1. Navigate to {The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/index.html)
+2. Click the email address in the footer ( admin@therhythmlounge.ie )
+
+Expected: 
+Default mail application is opened and 'To' address bar is pre-filled. 
+
+Actual: Behaviour was as expected. See screenshot below: 
+![email-footer](assets/images/readme-img/email-footer.png)
 # Deployement 
 
 What i used to deploy and how i did it. 
