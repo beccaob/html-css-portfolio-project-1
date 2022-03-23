@@ -466,6 +466,12 @@ Default mail application is opened and 'To' address bar is pre-filled.
 
 Actual: Behaviour was as expected. See screenshot below: 
 ![email-footer](assets/images/readme-img/email-footer.png)
+
+# Validator Testing 
+
+## HTML 
+
+
 # Deployement 
 
 What i used to deploy and how i did it. 
