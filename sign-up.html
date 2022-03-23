@@ -47,54 +47,54 @@
 
     <!-- sign up form to gather all relevant information from user -->
     <main>
-    <section id="signup-container">
+    <div id="signup-container">
         <div id="signup-image">
         </div>
-    </section>
-    <section class="form-section">
+    </div>
+    <div class="form-section">
         <form action="sign-up-successful.html" class="signup-form">
             <h2>Ready to Rock?<i class="fa-solid fa-music"></i></h2>
 
-            <label for="fname" id="fname">Childs First Name</label>
+            <label for="fname">Childs First Name</label>
             <input type="text" name="first_name" id="fname" class="text-input" placeholder="First Name Here" required>
 
-            <label for="lname" id="lname">Childs Last Name</label>
+            <label for="lname">Childs Last Name</label>
             <input type="text" name="last_name" id="lname" class="text-input" placeholder="Last Name Here"  required>
 
-            <label for="age" id="age">Childs Age</label>
+            <label for="age">Childs Age</label>
             <input type="number" name="age" id="age" class="number-input" placeholder="6 - 14" min="6" max="14"  required>
 
-            <label for="email" id="email">Parents Email Address</label>
+            <label for="email">Parents Email Address</label>
             <input type="email" name="email_address" id="email" class="text-input" placeholder="Email Address Here"
              required>
             
 
-        <fieldset>
-            <legend>Please select a workshop from the list below.</legend>
+             <fieldset>
+                <legend>Please select a workshop from the list below.</legend>
+                
+                <p class="radio"><em>Please Note: Our songwriting workshops are only available to children aged
+                    12-14yrs.</em></p>
+    
+                <label for="guitar">Guitar</label>
+                <input type="radio" name="workshop_preference" value="guitar" id="guitar" aria-label="guitar option"><br>
+    
+                <label for="piano">Piano</label>
+                <input type="radio" name="workshop_preference" value="piano" id="piano" aria-label="piano option"><br>
+    
+                <label for="drums">Drums</label>
+                <input type="radio" name="workshop_preference" value="drums" id="drums" aria-label="drums option"><br>
+    
+                <label for="vocals">Vocals</label>
+                <input type="radio" name="workshop_preference" value="vocals" id="vocals" aria-label="vocals option"><br>
             
-            <p class="radio"><em>Please Note: Our songwriting workshops are only available to children aged
-                12-14yrs.</em></p>
-
-            <label for="guitar">Guitar</label>
-            <input type="radio" name="workshop_preference" value="guitar" id="guitar" aria-label="guitar option"><br>
-
-            <label for="piano">Piano</label>
-            <input type="radio" name="workshop_preference" value="piano" id="piano" aria-label="piano option"><br>
-
-            <label for="drums">Drums</label>
-            <input type="radio" name="workshop_preference" value="drums" id="drums" aria-label="drums option"><br>
-
-            <label for="vocals">Vocals</label>
-            <input type="radio" name="workshop_preference" value="vocals" id="vocals" aria-label="vocals option"><br>
-        
-            <label for="song-writing">Song Writing</label>
-            <input type="radio" name="workshop_preference" value="song-writing" id="song-writing" aria-label="song writing option">
-            </fieldset>
-
-            <input type="submit" value="Join Now!" class="join-button" aria-label="Join Now Button">
+                <label for="song-writing">Song Writing</label>
+                <input type="radio" name="workshop_preference" value="song-writing" id="song-writing" aria-label="song writing option">
+                </fieldset>
+    
+                <input type="submit" value="Join Now!" class="join-button" aria-label="Join Now Button">
         </form>
+    </div>
     </main>
-
 
         <!-- footer -->
 
