@@ -187,57 +187,23 @@ Expected Outcome:
 
 Actual Outcome: 
 
-Chrome:
+The website behaved as expected across all tests. 
 
-* Home Page
-    * Behaved as expected.  
-* Classes Page
-    * Behaved as expected. 
-* Sign Up Page
-    * Behaved as expected.  
-* Sign Up Successful Page
-    * Behaved as expected. 
-* 404 Error
-    * Behaved as expected. 
-
-Edge: 
-
-* Home Page
-    * Behaved as expected. 
-* Classes Page
-    * Behaved as expected.  
-* Sign Up Page
-    * Behaved as expected.  
-* Sign Up Successful Page
-    * Behaved as expected.  
-* 404 Error
-    * Behaved as expected. 
-
-Fire Fox: 
-
-* Home Page
-    * Behaved as expected. 
-* Classes Page
-    * Behaved as expected. 
-* Sign Up Page
-    * Behaved as expected. 
-* Sign Up Successful Page
-    * Behaved as expected. 
-* 404 Error
-    * Behaved as expected. 
-
-The site was also tested on the following: 
+The site was also tested on the following devices and no issues were detected: 
 
 * Apple IPhone 13 
-    * Website behaved as expected.
 * One Plus 7T 
-    * Website behaved as expected.
-* Samsung A32 
-    * Website behaved as expected. 
-* Asus 15.6" M509DA-EJ034T 
-    * Website behaved as expected.
+* Samsung A32
+* Asus 15.6" M509DA-EJ034T   
 * HP Pro Desk 400 G6 SFF
-    * Website behaved as expected.
+
+## Accessibility
+
+[Wave Accessibility Tool](https://wave.webaim.org/) was used throughout development and for the final testing of the website. 
+
+Testing was targerted towards ensuring the following criteria was met: 
+* All forms have aria labels
+    
 
 
 # Deployement 

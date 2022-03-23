@@ -206,7 +206,8 @@ h4 {
 
 .class-info p {
     font-family: Hubballi, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 100px;
     padding-top: 15px;
     padding-bottom: 25px;
 }
@@ -214,6 +215,8 @@ h4 {
 ul {
     font-family: Hubballi, sans-serif;
     font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 .class-info h3 {
@@ -223,13 +226,6 @@ ul {
 
 .class-info , .classes {
     text-align: center;
-}
-
-.classes p {
-    padding-bottom: 15px;
-    padding-top: 10px;
-
-    font-size: 25px;
 }
 
 .classes h2 {
