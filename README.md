@@ -213,14 +213,216 @@ A manual test was conducted 23/03/22 using NVDA and no accessibility issues were
 
 ## Lighthouse Testing
 
+* Home Page
+
 ![home-lighthouse](assets/images/readme-img/home-lighthouse.png)
+
+* Classes Page
 
 ![home-lighthouse](assets/images/readme-img/classes-lighthouse.png)
 
+* Sign Up Page
+
 ![home-lighthouse](assets/images/readme-img/signup-lighthouse.png)
 
-    
+## Functional Testing 
 
+### Nav Links 
+Testing was performed to ensure links on all pages navigated to the correct place as per design. This was done by clicking on the nav links on each page ( menu & footer )
+
+Expected Outcome: 
+* All links navigate to correct page
+
+Actual Outcome:
+* Outcome as expected
+
+### Form Testing
+
+The sign up form was tested to ensure it performed as expected when correct/incorrect data was inputted. The following tests were performed: 
+
+#### Correct Inputs 
+
+Steps to test: 
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name: Jane
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form submits with no errors and user is redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected with no errors/warnings and user was redirected correctly.
+
+#### Missing First Name Input 
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+
+#### Missing Last Name Input 
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+#### Missing Age Input 
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+#### Inputting higher than allowed (6-14) age in Age Input 
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+#### Inputting lower than allowed (6-14) age in Age Input 
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+#### Incorrect email format in Email input
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
+
+#### Inputting higher than allowed (6-14) age in Age Input 
+
+Steps to test:
+
+1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
+2. Input the following data:
+    * First Name:
+    * Last Name: Doe
+    * Age: 12
+    * Email: j.doe@test.com
+3. Choose workshop
+4. Click 'Join Now' 
+5. User should not be redirected to sign-up-successful.html confirmation page
+
+Expected: 
+
+* Form doesn't submit & ean error is displayed. User is not redirected to confirmation page mentioned above. 
+
+
+Actual: 
+
+* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
 # Deployement 
 
