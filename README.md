@@ -1,12 +1,14 @@
 # The Rhythm Lounge 
 
-Description of site here - add link to live site and mockup of site responsiveness here also. 
+The Rhythm Lounge is a website that allows the user to sign their kids (aged 6-14) up for music workshops. These workshops include piano, guitar, vocals, drums and songwriting. The website aims to inform the user of the benefits a child gains from learning music at a younge age which will in turn, entice them to sign their child up for a workshop. View the live site here: https://beccaob.github.io/the-rhythm-lounge-pp1/
 
-The Rhythm Lounge is a website that allows the user to sign their kids (aged 6-14) up for music workshops. These workshops include piano, guitar, vocals, drums and songwriting. The website aims to inform the user of the benefits a child gains from learning music at a younge age. View the live site here. ( insert live link when deployed)
+## Website Mock-up
+
+![multi-device-mockup](assets/images/readme-img/multi-device-mockup.png)
+
+View all pages on the mockup generator here https://techsini.com/multi-mockup/?url=https://beccaob.github.io/the-rhythm-lounge-pp1/
 
 # Features 
-
-Enter features of the site, explain why there are there - include navigation, footer, favicon (if applicable), lading page, classes page and sign up page. include screenshots of everything working as it should. 
 
 ## Site Wide 
 
@@ -157,6 +159,9 @@ I will add
 
 ## Balsamiq 
 * Wireframes were created using Balsamiq from https://balsamiq.com/wireframes/desktop/
+
+## Images
+* Images were created using Canva Pro from https://www.canva.com/ 
 
 # Testing 
 
