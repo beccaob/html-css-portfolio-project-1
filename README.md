@@ -162,6 +162,10 @@ Colourful images will be used to keep the design consisitant.
 
 ## Images
 * Images were created using Canva Pro from https://www.canva.com/ 
+* Stuck within licence guidlines ( see below )
+
+![canva-licence](assets/images/readme-img/canva-licence.png)
+
 
 # Testing 
 
@@ -186,43 +190,54 @@ Actual Outcome:
 Chrome:
 
 * Home Page
-    * Website behaved as expected. 
+    * Behaved as expected.  
 * Classes Page
-    * Website behaved as expected. 
+    * Behaved as expected. 
 * Sign Up Page
-    * Website behaved as expected. 
+    * Behaved as expected.  
 * Sign Up Successful Page
-    * Website behaved as expected. 
+    * Behaved as expected. 
 * 404 Error
-    * Website behaved as expected. 
+    * Behaved as expected. 
 
 Edge: 
 
 * Home Page
-    * Website behaved as expected. 
+    * Behaved as expected. 
 * Classes Page
-    * Website behaved as expected. 
+    * Behaved as expected.  
 * Sign Up Page
-    * Website behaved as expected. 
+    * Behaved as expected.  
 * Sign Up Successful Page
-    * Website behaved as expected. 
+    * Behaved as expected.  
 * 404 Error
-    * Website behaved as expected. 
+    * Behaved as expected. 
 
 Fire Fox: 
 
 * Home Page
-    * Website behaved as expected.
+    * Behaved as expected. 
 * Classes Page
-    * Website behaved as expected.
+    * Behaved as expected. 
 * Sign Up Page
-    * Website behaved as expected.
+    * Behaved as expected. 
 * Sign Up Successful Page
-    * Website behaved as expected.
+    * Behaved as expected. 
 * 404 Error
+    * Behaved as expected. 
+
+The site was also tested on the following: 
+
+* Apple IPhone 13 
     * Website behaved as expected.
-
-
+* One Plus 7T 
+    * Website behaved as expected.
+* Samsung A32 
+    * Website behaved as expected. 
+* Asus 15.6" M509DA-EJ034T 
+    * Website behaved as expected.
+* HP Pro Desk 400 G6 SFF
+    * Website behaved as expected.
 
 
 # Deployement 
@@ -230,6 +245,10 @@ Fire Fox:
 What i used to deploy and how i did it. 
 
 # Credits 
+
+## Images
+
+
 
 anything i used to help me make the site. 
 
