@@ -8,7 +8,16 @@ The Rhythm Lounge is a website that allows the user to sign their kids (aged 6-1
 
 View all pages on the mock-up generator here https://techsini.com/multi-mockup/?url=https://beccaob.github.io/the-rhythm-lounge-pp1/
 
-# Features 
+# Table of Contents
+
+* [**Features**](#features)
+* [**Design**](#design)
+* [**Technologies**](#technologies)
+* [**Testing**](#testing)
+* [**Deployment**](#deployment)
+* [**Credits**](#credits)
+
+# **Features**
 
 ## Site Wide 
 
@@ -126,14 +135,18 @@ Imelda is enrolling one of her children in TRL.
 Outcome: Imelda can navigate to the 'Sign Up' page and fill out the relevant information. If she fills this out correctly, she will be redirected to a submission successful page. This page lets Imelda know that her child is enrolled. 
     
 
-# Design
+# **Design**
 
 ## Site Wide 
 
 ### Colours 
 
 The colours used will be Orange ( primary background colour ) and Dark Grey ( Primary heading & content colour ).
-Colourful images will be used to keep the design consistent. 
+Colourful hero & background images will be used to keep the design consistent. 
+
+### Fonts
+
+Fonts used will be Fredoka & Hubballi - these were chosen to keep in line with a child-friendly design. They will be imported to the css file from Google Fonts. 
 
 ## Wireframes 
 * I designed wireframes to give myself a rough idea of what I wanted the site to look like. 
@@ -170,7 +183,7 @@ Colourful images will be used to keep the design consistent.
 ![404-wf-mob](assets/images/readme-img/wireframes/404-mobile.png)
 
 
-# Technologies
+# **Technologies**
 
 ## HTML
 * The websites structure was developed using HTML as the main language.
@@ -190,6 +203,9 @@ Colourful images will be used to keep the design consistent.
 ## Font Awesome 
 * Icons from https://fontawesome.com/ were used in the headings and social media icons on the site. 
 
+## Google Fonts
+* Fonts 'Fredoka' & 'Hubballi' were imported to the CSS file from Google Fonts.
+
 ## Favicon.io 
 * Favicon files were created using https://favicon.io
 
@@ -206,7 +222,7 @@ Colourful images will be used to keep the design consistent.
 ![canva-licence](assets/images/readme-img/canva-licence.png)
 
 
-# Testing 
+# **Testing**
 
 ## Responsiveness 
 
@@ -236,7 +252,7 @@ The site was also tested on the following devices and no issues were detected:
 * Asus 15.6" M509DA-EJ034T   
 * HP Pro Desk 400 G6 SFF
 
-## Accessibility
+## **Accessibility**
 
 [Wave Accessibility Tool](https://wave.webaim.org/) was used throughout development and for the final testing of the website. 
 
@@ -264,7 +280,7 @@ A manual test was conducted 23/03/22 using NVDA and no accessibility issues were
 
 ![home-lighthouse](assets/images/readme-img/signup-lighthouse.png)
 
-## Functional Testing 
+## **Functional Testing**
 
 ### Nav Links 
 Testing was performed to ensure links on all pages navigated to the correct place as per design. This was done by clicking on the nav links on each page ( menu & footer )
@@ -279,7 +295,7 @@ Actual Outcome:
 
 The sign up form was tested to ensure it performed as expected when correct/incorrect data was inputted. The following tests were performed: 
 
-#### Correct Inputs 
+#### **Correct Inputs**
 
 Steps to test: 
 1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
@@ -301,7 +317,7 @@ Actual:
 
 * Website behaved as expected with no errors/warnings and user was redirected correctly.
 
-#### Missing First Name Input 
+#### **Missing First Name Input** 
 
 Steps to test:
 
@@ -325,14 +341,14 @@ Actual:
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
 
-#### Missing Last Name Input 
+#### **Missing Last Name Input** 
 
 Steps to test:
 
 1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
 2. Input the following data:
-    * First Name:
-    * Last Name: Doe
+    * First Name: Jane
+    * Last Name:
     * Age: 12
     * Email: j.doe@test.com
 3. Choose workshop
@@ -348,7 +364,7 @@ Actual:
 
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
-#### Missing Age Input 
+#### **Missing Age Input**
 
 Steps to test:
 
@@ -356,7 +372,7 @@ Steps to test:
 2. Input the following data:
     * First Name:
     * Last Name: Doe
-    * Age: 12
+    * Age: 
     * Email: j.doe@test.com
 3. Choose workshop
 4. Click 'Join Now' 
@@ -371,7 +387,7 @@ Actual:
 
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
-#### Inputting higher than allowed (6-14) age in Age Input 
+#### **Inputting higher than allowed (6-14) age in Age Input**
 
 Steps to test:
 
@@ -379,7 +395,7 @@ Steps to test:
 2. Input the following data:
     * First Name:
     * Last Name: Doe
-    * Age: 12
+    * Age: 16
     * Email: j.doe@test.com
 3. Choose workshop
 4. Click 'Join Now' 
@@ -394,7 +410,7 @@ Actual:
 
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
-#### Inputting lower than allowed (6-14) age in Age Input 
+#### **Inputting lower than allowed (6-14) age in Age Input** 
 
 Steps to test:
 
@@ -402,7 +418,7 @@ Steps to test:
 2. Input the following data:
     * First Name:
     * Last Name: Doe
-    * Age: 12
+    * Age: 4
     * Email: j.doe@test.com
 3. Choose workshop
 4. Click 'Join Now' 
@@ -417,7 +433,7 @@ Actual:
 
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
-#### Incorrect email format in Email input
+#### **Incorrect email format in Email input**
 
 Steps to test:
 
@@ -426,7 +442,7 @@ Steps to test:
     * First Name:
     * Last Name: Doe
     * Age: 12
-    * Email: j.doe@test.com
+    * Email: j.doetest.comS
 3. Choose workshop
 4. Click 'Join Now' 
 5. User should not be redirected to sign-up-successful.html confirmation page
@@ -440,30 +456,8 @@ Actual:
 
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
-#### Inputting higher than allowed (6-14) age in Age Input 
 
-Steps to test:
-
-1. Navigate to {Sign Up - The Rhythm Lounge}(https://beccaob.github.io/the-rhythm-lounge-pp1/sign-up.html)
-2. Input the following data:
-    * First Name:
-    * Last Name: Doe
-    * Age: 12
-    * Email: j.doe@test.com
-3. Choose workshop
-4. Click 'Join Now' 
-5. User should not be redirected to sign-up-successful.html confirmation page
-
-Expected: 
-
-* Form doesn't submit & an error is displayed. User is not redirected to confirmation page mentioned above. 
-
-
-Actual: 
-
-* Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
-
-#### Not selecting a workshop radioo button
+#### **Not selecting a workshop radio button**
 
 Steps to test:
 
@@ -486,13 +480,13 @@ Actual:
 
 * Website behaved as expected, error message was displayed and the form didn't submit. User was not redirected to confirmation page.
 
-## Footer Social Icons
+## **Footer Social Icons**
 
 Testing was performed on the social media icons to ensure each opened in a new tab and had a hover effect of an underline. 
 
 As expected, each icon opened in a new tab and correct underline was present. 
 
-## Footer Contact Information
+## **Footer Contact Information**
 
 Testing was performed on the email in the 'Contact Us' section of the footer to ensure it opened the users default mail application. 
 
@@ -506,7 +500,7 @@ Default mail application is opened and 'To' address bar is pre-filled.
 Actual: Behaviour was as expected. See screenshot below: 
 ![email-footer](assets/images/readme-img/email-footer.png)
 
-# Validator Testing 
+# **Validator Testing** 
 
 ## HTML 
 
@@ -522,7 +516,7 @@ No errors were presented when running through the official Jigsaw Validator.
 ![css-validate](assets/images/readme-img/css-validate.png)
 
 
-# Deployment
+# **Deployment**
 
 The website was created using Visual Studio Code editor and pushed to the github remote repository 'the-rhythm-lounge-pp1'
 The following git commands were used throughout development to push code to the remote repository: 
@@ -563,15 +557,30 @@ Navigate to the github repo you want to clone for local use
 The project will now be cloned on your local machine.
 
 
-# Credits 
+# **Credits** 
 
-## Images
+## Images - Canva
 
 * Home & Classes Background Image: 'Collection Of Different Vintage Audio Compact Cassettes' - Martin Bergsma
 
 * Sign Up Background Image: 'Vintage Audio Compact Cassettes' - Martin Bergsma
 
 * Hero Image: 'Untitled' - Rahu from Pixabay
+
+## Font Awesome 
+* Icons from https://fontawesome.com/ were used in the headings and social media icons on the site. 
+
+## Google Fonts
+* Fonts 'Fredoka' & 'Hubballi' were imported to the CSS file from Google Fonts.
+
+## Favicon.io 
+* Favicon files were created using https://favicon.io
+
+## Balsamiq 
+* Wireframes were created using Balsamiq from https://balsamiq.com/wireframes/desktop/
+
+## NVDA
+* Manual accessibility text ran using NDVA. (https://www.nvaccess.org/)
 
 ## Flexbox Froggy 
 
@@ -595,3 +604,6 @@ The project will now be cloned on your local machine.
     * Can be accessed here: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 
+# Thank You
+
+Thanks to my fellow peers for reviewing my project and a very special thank you to my mentor Daisy McGirr , for her invaluable advice and resources throughout the development of this project. 
